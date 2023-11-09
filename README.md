@@ -3,12 +3,14 @@
 This is a Node.js backend project for managing books with a MongoDB database.
 
 ## API Endpoints
+ local: http://localhost:3000
+ production: https://booksmanagement-9n1y.onrender.com
 
-- *GET /api/books*: Get a list of all books.
-- *GET /api/books/:id*: Get details of a specific book by its ID.
-- *POST /api/books*: Add a new book (Requires: title, author, summary in the request body).
-- *PUT /api/books/:id*: Update a book's details (Requires: title, author, summary in the request body).
-- *DELETE /api/books/:id*: Delete a book by its ID.
+- GET /getAllBooks: Get a list of all books.
+- GET /getBook/:id: Get details of a specific book by its ID.
+- POST /addBook: Add a new book (Requires: title, author, summary in the request body).
+- PUT /updateBook/:id: Update a book's details (Requires: title, author, summary in the request body).
+- DELETE /deleteBook/:id: Delete a book by its ID.
 
 ## Setup and Usage
 
