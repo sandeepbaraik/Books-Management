@@ -12,6 +12,13 @@ This is a Node.js backend project for managing books with a MongoDB database.
 - PUT /updateBook/:id: Update a book's details (Requires: title, author, summary in the request body).
 - DELETE /deleteBook/:id: Delete a book by its ID.
 
+Example - /addBook 
+   {
+      "title": "Javascript",
+      "author": "Dan",
+      "summary": "This is a Javascript book for beginner",
+   }
+
 ## Setup and Usage
 
 1. Clone the repository:
